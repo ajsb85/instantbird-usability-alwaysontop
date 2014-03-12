@@ -1,49 +1,45 @@
-<?xml version="1.0"?>
-
-<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-
-  <Description about="urn:mozilla:install-manifest">
-    <em:id>alwaysontop@mic.instantbird.org</em:id>
-    <em:name>Always on Top</em:name>
-    <em:creator>Benedikt P.</em:creator>
-	<em:contributor>Alexander Salas</em:contributor>
-    <em:type>2</em:type>
-    <em:version>2.0</em:version>
-	<em:unpack>true</em:unpack>
-
-    <em:localized>
-      <Description>
-        <em:locale>en-US</em:locale>
-        <em:name>Always On Top</em:name>
-        <em:creator>Benedikt Pfeifer</em:creator>
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>alwaysontop@mic.instantbird.org</em:id>
+		<em:unpack>true</em:unpack>
+		<em:name>Always on Top</em:name>
+		<em:version>2.0</em:version>
+		<em:type>2</em:type>
+		<em:creator>Benedikt P.</em:creator>
 		<em:contributor>Alexander Salas</em:contributor>
-        <em:description>Keep Instantbird's contact list always on top of other windows.</em:description>
-      </Description>
-    </em:localized>
-
-    <em:localized>
-      <Description>
-        <em:locale>de-DE</em:locale>
-        <em:name>Immer sichtbar (Always On Top)</em:name>
-        <em:creator>Benedikt Pfeifer</em:creator>
-		<em:contributor>Alexander Salas</em:contributor>
-        <em:description>Zeigt die Kontaktliste immer oberhalb anderer Fenster auf dem Desktop.</em:description>
-      </Description>
-    </em:localized>
-
-    <em:targetPlatform>WINNT_x86-msvc</em:targetPlatform>
-
-    <em:iconURL>chrome://alwaysontop/content/alwaysontop.png</em:iconURL>
-    <em:optionsURL>chrome://alwaysontop/content/options.xul</em:optionsURL>
-
-    <!-- Instantbird //-->
-    <em:targetApplication>
-      <Description>
-        <em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
-        <em:minVersion>0.3a1pre</em:minVersion>
-        <em:maxVersion>0.3</em:maxVersion>
-      </Description>
-    </em:targetApplication>
-  </Description>
+		<em:translator>Fatma Youssef</em:translator>
+		<em:homepageURL>http://alexandersalas.name/</em:homepageURL>
+		<em:targetPlatform>WINNT_x86-msvc</em:targetPlatform>
+		<em:iconURL>chrome://alwaysontop/content/icon48.png</em:iconURL>
+		<em:icon64URL>chrome://alwaysontop/skin/icon64.png</em:icon64URL>
+		<em:optionsURL>chrome://alwaysontop/content/options.xul</em:optionsURL>
+		<em:localized>
+		  <Description>
+			<em:locale>en-US</em:locale>
+			<em:name>Always On Top</em:name>
+			<em:creator>Benedikt Pfeifer</em:creator>
+			<em:contributor>Alexander Salas</em:contributor>
+			<em:translator>Fatma Youssef</em:translator>
+			<em:description>Keep Instantbird's contact list always on top of other windows.</em:description>
+		  </Description>
+		</em:localized>
+		<em:localized>
+		  <Description>
+			<em:locale>de-DE</em:locale>
+			<em:name>Immer sichtbar (Always On Top)</em:name>
+			<em:creator>Benedikt Pfeifer</em:creator>
+			<em:contributor>Alexander Salas</em:contributor>
+			<em:translator>Fatma Youssef</em:translator>
+			<em:description>Zeigt die Kontaktliste immer oberhalb anderer Fenster auf dem Desktop.</em:description>
+		  </Description>
+		</em:localized>
+		<em:targetApplication>
+			<Description>
+				<em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
+				<em:minVersion>0.3a1pre</em:minVersion>
+				<em:maxVersion>1.6a1pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
 </RDF>
