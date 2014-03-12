@@ -11,7 +11,7 @@
 		<em:translator>Fatma Youssef</em:translator>
 		<em:homepageURL>http://alexandersalas.name/</em:homepageURL>
 		<em:targetPlatform>WINNT_x86-msvc</em:targetPlatform>
-		<em:iconURL>chrome://alwaysontop/content/icon48.png</em:iconURL>
+		<em:iconURL>chrome://alwaysontop/skin/icon48.png</em:iconURL>
 		<em:icon64URL>chrome://alwaysontop/skin/icon64.png</em:icon64URL>
 		<em:optionsURL>chrome://alwaysontop/content/options.xul</em:optionsURL>
 		<em:localized>

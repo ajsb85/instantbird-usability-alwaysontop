@@ -3,3 +3,5 @@ overlay chrome://instantbird/content/blist.xul  chrome://alwaysontop/content/ove
 
 locale alwaysontop en-US chrome/locale/en-US/
 locale alwaysontop de-DE chrome/locale/de-DE/
+
+skin alwaysontop     classic/1.0 chrome/skin/
