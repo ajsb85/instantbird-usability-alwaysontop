@@ -1,0 +1,5 @@
+content alwaysontop chrome/content/
+overlay chrome://instantbird/content/blist.xul  chrome://alwaysontop/content/overlay.xul
+
+locale alwaysontop en-US chrome/locale/en-US/
+locale alwaysontop de-DE chrome/locale/de-DE/

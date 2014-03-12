@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE alwaysontop SYSTEM "chrome://alwaysontop/locale/alwaysontop.dtd">
+
+<overlay id="alwaysontop" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/javascript" src="chrome://alwaysontop/content/alwaysontop.js"/>
+
+  <menupopup id="toolsMenuPopup">
+    <menuitem  id="alwaysontop-menuitem"       type="checkbox"
+               insertbefore="menu_preferences" label="&alwaysontop.menuitem;"
+               oncommand="aot.setFromMenu()"/>
+  </menupopup>
+</overlay> 

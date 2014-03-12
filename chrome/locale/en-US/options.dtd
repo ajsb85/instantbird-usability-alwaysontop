@@ -1,0 +1,3 @@
+<!ENTITY options.title           "Always On Top - Settings">
+<!ENTITY options.groupboxcaption "General settings">
+<!ENTITY options.persistlabel    "Remember window status for next session.">
