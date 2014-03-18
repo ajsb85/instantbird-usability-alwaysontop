@@ -30,5 +30,5 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
       
 _Thank you very much for your generosity! -alexandersalas_
 
-[1]: https://raw.github.com/alexsalas/instantbird-usability-alwaysontop/master/aio/1283543863.png
+[1]: https://raw.github.com/alexsalas/instantbird-usability-alwaysontop/master/aio/1307886642.png
 [2]: https://raw.github.com/alexsalas/instantbird-usability-alwaysontop/master/aio/1283543863.png
